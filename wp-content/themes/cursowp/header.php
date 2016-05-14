@@ -44,21 +44,14 @@ $template_url =  get_bloginfo('template_directory');
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="/cursowp">Start Gaboso</a>
-            </li>
-            <li>
-                <a href="/cursowp/cursowp-posts/">CursoWP Posts</a>
-            </li>
-            <li>
-                <a href="/cursowp/pessoas/">Pessoas</a>
-            </li>
-            <li>
-                <a href="/cursowp/pagina-exemplo">Pagina de exemplo</a>
-            </li>
-            <li>
-                <a href="/cursowp/ursos-arctos">UrsosArctos</a>
-            </li>
+            <li class="sidebar-brand"><a href="/cursowp">Gaboso</a></li>
+            <?php
+            wp_nav_menu( array(
+                'menu'=> 'Curso Wp',
+                'container' =>'',
+                'items_wrap'     => '%3$s'
+            ) );
+            ?>
         </ul>
     </div>
     <!-- /#sidebar-wrapper -->

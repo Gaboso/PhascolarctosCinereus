@@ -15,5 +15,6 @@ foreach (glob(plugin_dir_path(__FILE__) . 'post-types/*.php') as $filename) {
     require_once $filename;
 }
 
+require_once plugin_dir_path(__FILE__) . 'config-admin-page.php';
 
 ?>
