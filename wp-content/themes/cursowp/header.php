@@ -48,6 +48,12 @@ $template_url =  get_bloginfo('template_directory');
                 <a href="/cursowp">Start Gaboso</a>
             </li>
             <li>
+                <a href="/cursowp/cursowp-posts/">CursoWP Posts</a>
+            </li>
+            <li>
+                <a href="/cursowp/pessoas/">Pessoas</a>
+            </li>
+            <li>
                 <a href="/cursowp/pagina-exemplo">Pagina de exemplo</a>
             </li>
             <li>
