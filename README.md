@@ -2,4 +2,4 @@
 
 -----
 
-Projeto teste sobre uso do _WordPress_ e PHP
+Projeto realizado em um minicurso sobre uso do _WordPress_ e _PHP_.
